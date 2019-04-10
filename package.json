@@ -1,0 +1,29 @@
+{
+  "name": "green-newspaper-site",
+  "version": "1.0.0",
+  "description": "Simple newspaper themed website built on Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreyvalle/green-newspaper-site.git"
+  },
+  "author": "Jeff Valle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffreyvalle/green-newspaper-site/issues"
+  },
+  "homepage": "https://github.com/jeffreyvalle/green-newspaper-site#readme",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  }
+}
