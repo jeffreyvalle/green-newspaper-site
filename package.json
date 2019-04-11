@@ -4,9 +4,9 @@
   "description": "Simple newspaper themed website built on Next.js",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server/server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jeffreyvalle/green-newspaper-site#readme",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
+    "express": "^4.16.4",
     "next": "^8.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
